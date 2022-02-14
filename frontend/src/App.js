@@ -8,6 +8,9 @@ import ContactoPage from './pages/contactoPage';
 import HomePage from './pages/HomePage';
 import NosotrosPage from './pages/NosotrosPage';
 import NovedadesPage from './pages/NovedadesPage';
+import login from './pages/login';
+import React from "react";
+
 
 
 function App(){
@@ -21,6 +24,7 @@ function App(){
       <Route path="/nosotros" exact component={NosotrosPage}/>
       <Route path="/novedades" exact component={NovedadesPage}/>
       <Route path="/contacto" exact component={ContactoPage}/>
+      <Route path="/login" exact component={login}/>
     </Switch>
     <Footer/>
   </Router>

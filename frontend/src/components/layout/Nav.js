@@ -1,5 +1,6 @@
 import '../../styles/componets/layout/Nav.css'
 import { Link } from 'react-router-dom';
+import React from "react";
 
 const Nav = (props)=> {
     return(
@@ -12,7 +13,13 @@ const Nav = (props)=> {
                 <li><Link to="/novedades">Novedades</Link></li>
 
                 <li><Link to= "/contacto">Contacto</Link></li>
+
+                
                 <ul/>
+            </div>
+
+            <div className='holder'>
+                <li><Link to ="/login">Ingresar</Link></li>
             </div>
         </nav>
     );
