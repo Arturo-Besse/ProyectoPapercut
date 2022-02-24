@@ -4,32 +4,45 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
-.formulario label{
+.ingresar label{
+    
     display: inline-block;
     vertical-align: top;
-    width: 25%;
+    width: 100%;
+    
 }
-.formulario input, .formulario textarea {
+.ingresar input, .ingresar textarea {
     background: #ddd;
     border-radius: 5px;
     border: 1px solid #999;
     font-size: 0.8em;
     padding: 0.4em 0.6em;
-    width: 30%;
+    width: 40%;
 }
-.formulario textarea{
-    resize: none;
-    height: 18em;
-}
-.formulario .acciones{
+
+.ingresar .acciones{
     text-align: center;
 }
-.formulario input[type="submit"]{
+.ingresar input[type="submit"]{
     background: #9da9ed;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     color: white;
     font-size: 1em;
-    padding: 0.4em 0.2em;
+    padding: auto left;
+    /*padding: 0.4em 0.2em;*/
     text-align: center;
+    width: 100px;
+    
+}
+
+.ingresar input[type="text"]{
     width: auto;
 }
+
+.ingresar{
+    margin-left: 20px;
+}
+
+
+
+

@@ -1,5 +1,6 @@
-import '../../src/styles/componets/pages/login.css'
+import '../../src/styles/componets/pages/login.css';
 import React from "react";
+//import '../../src/conexion.js';
 
 
 const login = (props)=> {
@@ -7,7 +8,8 @@ const login = (props)=> {
     <main className="holder">
         <div className="columna login">
             <h2>Coloque nombre de Usuario y Contraseña</h2>
-            <form action="" method="" className="formulario">
+            
+            <form action="" method="" className="ingresar">
                 <p>
                     <label>Usuario</label>
                     <input type="text" name="usuario"/>
@@ -25,6 +27,9 @@ const login = (props)=> {
                 </div>
                 </main>
     )
+
+    
 }
 
 export default login;
+
