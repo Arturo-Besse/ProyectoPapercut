@@ -6,9 +6,10 @@ const Header = (props)=> {
         <header>
         <div className='holder'>
             <div className='logo'>
-                <img src="images/logo.png" width="100"
-                    alt="Transporte X"/>
-                    <h1>Industria Creativa NERV</h1>
+                <img src="images/logo.png" width="250"
+                    alt="usuarios gc"/>
+                    
+                    <h1>Control de Usuarios</h1>
 
             </div>
         </div>

@@ -5,14 +5,21 @@ const Nav = (props)=> {
     return(
         <nav>
             <div className='holder'>
-                <li><Link to = "/">Home</Link></li>
+                <ul>
+
+
+               
+                <li><Link to = "/">Inicio</Link></li>
+
+                <li><Link to="/usuarios">Usuarios</Link></li>
+
+                <li><Link to="/busqueda">Buscar</Link></li>
 
                 <li><Link to="/nosotros">Nosotros</Link></li>
 
-                <li><Link to="/novedades">Novedades</Link></li>
 
-                <li><Link to= "/contacto">Contacto</Link></li>
-                <ul/>
+                <li><Link to= "/feedbacks">Feedbacks</Link></li>
+                </ul>
             </div>
         </nav>
     );

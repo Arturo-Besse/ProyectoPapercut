@@ -4,9 +4,9 @@ import React from 'react';
 const HomePage = (props)=> {
     return (
         <main className='holder'>
-            <div className='homeimg'>
-                <img src="images/home/img01.jpg" alt="EVA 00" />
-            </div>
+
+            
+            
             <div className='columnas'>
                 <div className='bienvenidos left'>
                     <h2>Bienvenidos</h2>

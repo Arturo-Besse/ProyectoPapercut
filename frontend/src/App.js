@@ -4,10 +4,11 @@ import Nav from "./components/layout/Nav";
 import Footer from "./components/layout/Footer";
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
-import ContactoPage from './pages/contactoPage';
+import feedbacks from './pages/feedbacks';
 import HomePage from './pages/HomePage';
 import NosotrosPage from './pages/NosotrosPage';
-import NovedadesPage from './pages/NovedadesPage';
+import busqueda from './pages/busqueda';
+import usuarios from './pages/usuarios';
 
 
 function App(){
@@ -18,9 +19,10 @@ function App(){
     <Nav />
     <Switch>
       <Route path="/" exact component={HomePage}/>
+      <Route path="/usuarios" exact component={usuarios}/>
+      <Route path="/busqueda" exact component={busqueda}/>
       <Route path="/nosotros" exact component={NosotrosPage}/>
-      <Route path="/novedades" exact component={NovedadesPage}/>
-      <Route path="/contacto" exact component={ContactoPage}/>
+      <Route path="/feedbacks" exact component={feedbacks}/>
     </Switch>
     <Footer/>
   </Router>
