@@ -8,25 +8,14 @@ const Header = (props)=> {
             
         <div className='holder'>
             <div className='logo'>
-                <img src="images/logo.png" width="100"
-                    alt="Transporte X"/>
+                <img src="images/logo.png" width="250"
+                    alt="usuarios gc"/>
+                    
                     <h1>Control de Usuarios</h1>
+
             </div>
         </div>
-        <form action="" method="" className="ingresar">
-                <p>
-                    <label>Usuario</label>
-                    <input type="text" name="usuario"/>
-
-                </p>
-                <p>
-                    <label>Contraseña </label>
-                    <input type="text" name="contraseña" />
-                </p>
-              
-                <p className="centrar"><input type="submit"
-                value="Entrar"/></p>
-            </form>
+       
 
         
 

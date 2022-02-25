@@ -1,7 +1,7 @@
 //import '../../src/styles/componets/pages/novedades.css'
 import React from 'react';
 
-const NovedadesPage = (props) => {
+const busqueda = (props) => {
     return (
         <section className='holder'>
             
@@ -11,4 +11,4 @@ const NovedadesPage = (props) => {
     );
 }
 
-export default NovedadesPage;
+export default busqueda;

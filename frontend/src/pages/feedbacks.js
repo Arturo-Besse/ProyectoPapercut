@@ -1,8 +1,8 @@
-import '../../src/styles/componets/pages/contactoPage.css'
+import '../../src/styles/componets/pages/feedbacks.css'
 import React from "react";
 
 
-const ContactoPage = (props)=> {
+const feedbacks = (props)=> {
     return(
     <main className="holder">
         <div className="columna contacto">
@@ -43,4 +43,4 @@ const ContactoPage = (props)=> {
     );
 }
 
-export default ContactoPage;
+export default feedbacks;
